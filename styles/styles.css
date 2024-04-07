@@ -1,0 +1,51 @@
+body{
+    
+    background-color:rgb(31, 27, 54);;
+    color:rgb(1, 63, 53);
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.model{
+    background:linear-gradient(to right,aqua,#008cff);
+    padding:2%;
+    width:30%;
+    margin: auto;
+    border-radius: 25px;
+    border:1px solid rgb(226, 223, 223);
+    box-shadow: 0px 0px 10px #888888;
+}
+
+button{
+    margin:25px;
+}
+.thermometer{
+    
+    width:20%;
+}
+
+#result,#celsius{
+    background-color:rgb(31, 27, 54);
+    border-color:rgb(0,0,0);
+    color:white;
+    font-weight: bolder;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    
+}
+
+button{
+    border-radius: 8px;
+    font-style: bold;
+    border:solid black 1px;
+    font-weight: 500;
+    color: rgb(214,214,213);
+    background-color: rgb(31, 27, 54);
+    margin-top: 5vh;
+}
